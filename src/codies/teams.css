@@ -1,0 +1,41 @@
+.codies-item__team {
+  display: grid;
+  justify-items: center;
+  /* align-items: center; */
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 50px 50px;
+}
+
+.codies-item__team-blue {
+  background: rgb(25, 97, 253);
+  color: white;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-weight: bolder;
+  padding: 0.7rem 2rem;
+  margin: 0.5rem 0.25rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.2rem;
+}
+
+.codies-item__team-red {
+  background: rgb(201, 34, 34);
+  color: white;
+  font-weight: bolder;
+  padding: 0.7rem 2rem;
+  margin: 0.5rem 0.25rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.2rem;
+}
+
+.player-name_team-blue {
+  color: rgb(21, 200, 255);
+  font-family: sans-serif;
+}
+
+.player-name_team-red {
+  color: rgb(255, 45, 45);
+  font-family: sans-serif;
+}

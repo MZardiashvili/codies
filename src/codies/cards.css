@@ -1,0 +1,90 @@
+.codies-item__buttons {
+  height: 98vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.codies-item__button {
+  display: block;
+  width: 235px;
+  height: 160px;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  background: rgb(241, 240, 239);
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: monospace;
+  border: 0;
+  border-radius: 0.3rem;
+}
+
+.codies-item__words {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.7rem;
+}
+
+.codies-item__button.disabled {
+  pointer-events: none;
+}
+
+.codies-item__button.codies-item__button-guesser--red {
+  background: red;
+  color: white;
+}
+
+.codies-item__button.codies-item__button-guesser--blue {
+  background: blue;
+  color: white;
+}
+
+.codies-item__button.codies-item__button-spymaster--reddish {
+  background: rgb(211, 108, 108);
+}
+
+.codies-item__button.codies-item__button-spymaster--bluish {
+  background: rgb(75, 146, 212);
+}
+
+.codies-item__button.codies-item__button-spymaster--bomb {
+  background: rgb(92, 92, 92);
+}
+
+.codies-item__button.codies-item__button-guesser--default {
+  background: rgb(177, 162, 162);
+  color: white;
+}
+
+.codies-item__button.codies-item__button-guesser--bomb {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.codies-item__team-info {
+  padding: 0.6rem 3.5rem;
+  border: 0;
+  margin-top: 1rem;
+  border-radius: 0rem;
+  cursor: pointer;
+}
+
+codies-item__team-info:active {
+}
+
+.codies-item__end-turn {
+  display: block;
+  width: 100px;
+  height: 35px;
+  grid-area: endturn;
+  background: #1c1e21;
+  border-radius: 0.3rem;
+  margin: 0.5rem;
+  margin-left: 110%;
+  color: white;
+  cursor: pointer;
+  /* justify-items: center;
+  align-items: center; */
+}
